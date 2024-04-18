@@ -4,13 +4,13 @@
 常见问题
 如果您正在编辑降落伞和/或板条箱的 SetEntityVelocity，请确保数字有小数点（例如，您可以输入 SetEntityVelocity(crate, 0.0, 而不是 SetEntityVelocity(crate, 0.0, 0.0, -1)) 0.0,-1.0))
 
-依赖项：
-qb-核心（最新）
-qb-目标
-聚区
+# 依赖项：
+ESX-CORE（最新）
+ox_target
+PolyZone
 如何安装
 将文件夹中的图像添加到您的库存中
-将以下项目添加到 Ox Inventory/items.lua
+# 将以下项目添加到 Ox Inventory/items.lua
 ["goldenphone"] = {
     ["name"] = "goldenphone",
     ["label"] = "金色卫星电话",
